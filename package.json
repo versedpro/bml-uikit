@@ -16,7 +16,7 @@
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release": "yarn build && np"
+    "release": "yarn build && np --no-2fa"
   },
   "husky": {
     "hooks": {
